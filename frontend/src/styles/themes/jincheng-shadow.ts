@@ -1,0 +1,35 @@
+import type { ThemeConfig } from '../../types/chat'
+
+export const jinchengShadowTheme: ThemeConfig = {
+  id: 'jincheng-shadow',
+  name: '凤鸣九天',
+  colors: {
+    '--bg': '#120e10',
+    '--bg-elevated': '#1c1618',
+    '--bg-scene': '#181214',
+    '--text': '#f0e8e4',
+    '--text-muted': '#b8a8a0',
+    '--text-dim': '#7a6860',
+    '--accent': '#c9a45c',
+    '--accent-dim': '#8a6b35',
+    '--border': '#3d2e28',
+    '--bubble-narrator-bg': '#221a1c',
+    '--bubble-narrator-border': '#5c4030',
+    '--bubble-dm-bg': '#1a1816',
+    '--bubble-dm-border': '#4a3828',
+    '--bubble-player-bg': '#2a1c22',
+    '--bubble-player-border': '#6b3a48',
+    '--bubble-system-bg': '#161214',
+    '--bubble-dice-bg': '#1e1814',
+    '--bubble-dice-text': '#e8c878',
+    '--input-bg': '#1c1618',
+    '--input-border': '#3d2e28',
+    '--topbar-bg': '#120e10',
+    '--sheet-bg': '#181214',
+    '--shadow': 'rgba(20, 8, 12, 0.65)',
+  },
+  fonts: {
+    narrative: '"Noto Serif SC", "Source Han Serif SC", Georgia, serif',
+    ui: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif',
+  },
+}

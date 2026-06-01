@@ -1,0 +1,35 @@
+import type { ThemeConfig } from '../../types/chat'
+
+export const defaultTheme: ThemeConfig = {
+  id: 'default',
+  name: '未命名剧本',
+  colors: {
+    '--bg': '#0f0e14',
+    '--bg-elevated': '#1a1824',
+    '--bg-scene': '#14121c',
+    '--text': '#e8e4df',
+    '--text-muted': '#9a948c',
+    '--text-dim': '#6b6560',
+    '--accent': '#c9a227',
+    '--accent-dim': '#8a7020',
+    '--border': '#2e2a38',
+    '--bubble-narrator-bg': '#1e1c28',
+    '--bubble-narrator-border': '#3d3848',
+    '--bubble-dm-bg': '#1a2433',
+    '--bubble-dm-border': '#2a3f5c',
+    '--bubble-player-bg': '#2a2218',
+    '--bubble-player-border': '#5c4a2a',
+    '--bubble-system-bg': '#18181e',
+    '--bubble-dice-bg': '#1a1814',
+    '--bubble-dice-text': '#c9a227',
+    '--input-bg': '#1a1824',
+    '--input-border': '#2e2a38',
+    '--topbar-bg': '#0f0e14',
+    '--sheet-bg': '#14121c',
+    '--shadow': 'rgba(0,0,0,0.4)',
+  },
+  fonts: {
+    narrative: '"Noto Serif SC", "Source Han Serif SC", Georgia, serif',
+    ui: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif',
+  },
+}

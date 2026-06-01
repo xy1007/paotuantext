@@ -1,0 +1,35 @@
+import type { ThemeConfig } from '../../types/chat'
+
+export const darkwaterLakeTheme: ThemeConfig = {
+  id: 'darkwater-lake',
+  name: '暗湖魅影',
+  colors: {
+    '--bg': '#080c0a',
+    '--bg-elevated': '#101814',
+    '--bg-scene': '#0c1210',
+    '--text': '#d4ddd6',
+    '--text-muted': '#8a9e92',
+    '--text-dim': '#5a6e62',
+    '--accent': '#4a8f6a',
+    '--accent-dim': '#2d5c42',
+    '--border': '#1e2e26',
+    '--bubble-narrator-bg': '#121a16',
+    '--bubble-narrator-border': '#2a4034',
+    '--bubble-dm-bg': '#0f1814',
+    '--bubble-dm-border': '#1a3d2e',
+    '--bubble-player-bg': '#1a1812',
+    '--bubble-player-border': '#3d3520',
+    '--bubble-system-bg': '#0e1210',
+    '--bubble-dice-bg': '#0f1612',
+    '--bubble-dice-text': '#6fcf97',
+    '--input-bg': '#101814',
+    '--input-border': '#1e2e26',
+    '--topbar-bg': '#080c0a',
+    '--sheet-bg': '#0c1210',
+    '--shadow': 'rgba(0, 12, 8, 0.65)',
+  },
+  fonts: {
+    narrative: '"Noto Serif SC", "Source Han Serif SC", Georgia, serif',
+    ui: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif',
+  },
+}
